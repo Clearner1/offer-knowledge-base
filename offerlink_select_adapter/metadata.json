@@ -1,0 +1,26 @@
+{
+    "title": "OfferLink Chrome Extension - SelectAdapter Architecture",
+    "summary": "Complete knowledge of the OfferLink Chrome extension's SelectAdapter factory pattern architecture for handling form dropdowns/selects across 14 UI frameworks. Covers the reverse engineering process from extracted webpack modules, the BaseSelectAdapter base class, SelectAdapter factory with detectType() routing, and all framework-specific adapters including the critical PhoenixSelectAdapter for cascader (multi-level province/city/district) selection. Includes integration pattern with formFiller.js using adapter-first with SelectHelper fallback.",
+    "created": "2026-03-10T14:23:00+08:00",
+    "lastModified": "2026-03-10T14:23:00+08:00",
+    "references": [
+        {
+            "type": "conversation",
+            "id": "ddf72919-b657-4fcc-ac5e-84bd68ac0acf",
+            "title": "SelectAdapter Restoration Implementation"
+        },
+        {
+            "type": "conversation",
+            "id": "6148015a-2d83-4cea-9e23-058001b28af3",
+            "title": "Phoenix Select Adapter Analysis"
+        }
+    ],
+    "tags": [
+        "offerlink",
+        "chrome-extension",
+        "select-adapter",
+        "form-filling",
+        "phoenix",
+        "reverse-engineering"
+    ]
+}
